@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+#container {
+	width: 90%;
+	max-width: 100vw;
+	margin: 40px auto 100px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: last baseline;
+	gap: 40px;
+}
+
+#container .aldeano {
+	text-align: center;
+}
+
+#container .aldeano .Aldeano__Info__Lista {
+    font-size: 16px;
+	font-weight: 600;
+}
+
+.Aldeano {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: fit-content;
+}
+
+.Aldeano__Img {
+    padding: 25px;
+	width: 90%;
+    align-self: center;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.Aldeano__Info__Lista{
+    list-style: none;
+    text-align: center;
+}
+
+/* .paginacion {
+	position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
+} */
